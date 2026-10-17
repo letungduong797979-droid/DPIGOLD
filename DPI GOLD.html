@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPI GOLD ACTIVATOR // CYBERPUNK EDITION</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Orbitron & Rajdhani -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            light: '#FFE57F',
+                            DEFAULT: '#FFD700',
+                            dark: '#B8860B',
+                            glow: '#FFA500',
+                        },
+                        cyber: {
+                            bg: '#050508',
+                            card: 'rgba(15, 15, 22, 0.75)',
+                            border: 'rgba(255, 215, 0, 0.25)',
+                            cyan: '#00f3ff',
+                        }
+                    },
+                    fontFamily: {
+                        orbitron: ['Orbitron', 'sans-serif'],
+                        rajdhani: ['Rajdhani', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #030305;
+            color: #e2e8f0;
+            font-family: 'Rajdhani', sans-serif;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(20, 15, 5, 0.8) 0%, rgba(3, 3, 5, 1) 100%),
+                linear-gradient(rgba(255, 215, 0, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 215, 0, 0.03) 1px, transparent 1px);
+            background-size: 100% 100%, 30px 30px, 30px 30px;
+        }
+
+        /* Gold Glow Effect */
+        .gold-glow {
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.4), inset 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+        .gold-glow-lg {
+            box-shadow: 0 0 35px rgba(255, 215, 0, 0.6), 0 0 10px rgba(255, 165, 0, 0.8);
+        }
+        .text-gold-shadow {
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 165, 0, 0.5);
+        }
+
+        /* Cyber Borders & Clip Paths */
+        .clip-corner {
+            clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px));
+        }
+        .clip-btn {
+            clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #09090d;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #b8860b;
+            border-radius: 2px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffd700;
+        }
+
+        /* Custom Range Input */
+        input[type=range] {
+            -webkit-appearance: none;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 4px;
+            height: 6px;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 18px;
+            width: 18px;
+            border-radius: 3px;
+            background: #ffd700;
+            cursor: pointer;
+            box-shadow: 0 0 10px #ffd700;
+            transform: rotate(45deg);
+        }
+
+        /* Scanline animation */
+        .scanline {
+            width: 100%;
+            height: 100%;
+            height: 2px;
+            background: rgba(255, 215, 0, 0.15);
+            opacity: 0.75;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: scanline 6s linear infinite;
+            pointer-events: none;
+        }
+        @keyframes scanline {
+            0% { top: 0%; }
+            100% { top: 100%; }
+        }
+
+        /* Rotating Core Rings */
+        .ring-rotate-cw {
+            animation: rotateCW 12s linear infinite;
+        }
+        .ring-rotate-ccw {
+            animation: rotateCCW 8s linear infinite;
+        }
+        @keyframes rotateCW {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        @keyframes rotateCCW {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(-360deg); }
+        }
+
+        /* Pulse Animations */
+        .core-pulse {
+            animation: corePulse 2s ease-in-out infinite alternate;
+        }
+        @keyframes corePulse {
+            0% { transform: scale(0.95); opacity: 0.8; filter: drop-shadow(0 0 15px #ffd700); }
+            100% { transform: scale(1.05); opacity: 1; filter: drop-shadow(0 0 35px #ffaa00); }
+        }
+
+        .active-pulse {
+            animation: statusGlow 1.5s infinite alternate;
+        }
+        @keyframes statusGlow {
+            0% { box-shadow: 0 0 10px #00f3ff; }
+            100% { box-shadow: 0 0 25px #00f3ff, 0 0 5px #fff; }
+        }
+        /* Animation đổi màu Rainbow Neon Gradient & Quang phổ Neon Glow */
+@keyframes rainbowFlow {
+    0% { background-position: 0% 50%; filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8)); }
+    50% { background-position: 100% 50%; filter: drop-shadow(0 0 18px rgba(0, 240, 255, 0.9)); }
+    100% { background-position: 0% 50%; filter: drop-shadow(0 0 10px rgba(255, 0, 128, 0.8)); }
+}
+
+@keyframes laserShimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+}
+
+/* Class màu Rainbow xịn xò */
+.rainbow-gradient-bg {
+    background: linear-gradient(90deg, #ffd700, #ff007f, #7928ca, #00f0ff, #00ff88, #ffd700) !important;
+    background-size: 300% 300% !important;
+    animation: rainbowFlow 4s ease infinite !important;
+}
+
+.rainbow-border-box {
+    border-image: linear-gradient(90deg, #ffd700, #00f0ff, #ff007f, #ffd700) 1 !important;
+}
+/* ======================================================
+ * MOBILE OPTIMIZATION & COMPACT RESPONSIVE FIX
+ * ====================================================== */
+
+/* Chặn chọn văn bản & Chặn Zoom gesture trên Mobile */
+html, body {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Tự động điều chỉnh kích thước siêu vừa vặn trên màn hình nhỏ (Mobile) */
+@media (max-width: 640px) {
+    /* Thu gọn Padding container chính */
+    .container, main, section {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+
+    /* Thu gọn Core Orb cho vừa vặn trung tâm */
+    #dpi-core {
+        width: 130px !important;
+        height: 130px !important;
+        border-width: 3px !important;
+    }
+    
+    #dpi-core i {
+        font-size: 1.75rem !important;
+        margin-bottom: 0.1rem !important;
+    }
+
+    #core-dpi-display {
+        font-size: 1.25rem !important;
+    }
+
+    /* Tối ưu Nút Kích Hoạt chuẩn vừa tay bấm */
+    #btn-activate {
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+        font-size: 0.95rem !important;
+    }
+
+    #btn-activate i {
+        font-size: 1.25rem !important;
+    }
+
+    /* Tối ưu Progress Bar */
+    .progress-track-box {
+        height: 1rem !important;
+    }
+
+    /* Tối ưu các thanh Slider nhỏ gọn, vừa khít */
+    input[type="range"] {
+        height: 6px !important;
+    }
+
+    /* Tối ưu font chữ tiêu đề & thẻ chỉ số */
+    h1, .app-title {
+        font-size: 1.15rem !important;
+    }
+
+    /* Khung chứa các nút nhân Multiplier (x2, x5, x10) xếp gọn */
+    .mult-btn {
+        padding-top: 0.35rem !important;
+        padding-bottom: 0.35rem !important;
+        font-size: 0.75rem !important;
+    }
+
+    /* Khung Console Logs không quá cao trên Mobile */
+    #console-logs {
+        max-height: 90px !important;
+        font-size: 0.65rem !important;
+    }
+}
+/* ======================================================
+ * MOBILE OPTIMIZATION & GPU HARDWARE ACCELERATION (MAX FPS)
+ * ====================================================== */
+
+/* Chặn thao tác zoom/cuộn thừa & chặn bôi đen văn bản */
+html, body {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ép Card màn hình (GPU) xử lý đồ họa giúp tăng mượt/FPS */
+* {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Tối ưu render các phần tử chuyển động chính */
+#dpi-core, 
+.rainbow-gradient-bg, 
+#progress-fill, 
+#btn-activate {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+}
+
+/* Tối ưu render Canvas khung hình mượt 60-120 FPS */
+canvas {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* Layout gọn gàng chuẩn Mobile */
+@media (max-width: 640px) {
+    #dpi-core {
+        width: 130px !important;
+        height: 130px !important;
+    }
+    
+    #btn-activate {
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+        font-size: 0.95rem !important;
+    }
+
+    #console-logs {
+        max-height: 85px !important;
+        font-size: 0.65rem !important;
+    }
+}
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between relative selection:bg-gold selection:text-black">
+
+    <!-- Ambient Particles Canvas -->
+    <canvas id="bg-canvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
+    
+    <!-- Scanline effect overlay -->
+    <div class="scanline z-50"></div>
+
+    <!-- HEADER / TOP NAV -->
+    <header class="relative z-10 w-full border-b border-gold/20 bg-black/60 backdrop-blur-md px-4 py-3 md:px-8">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 border border-gold rounded-sm flex items-center justify-center bg-gold/10 gold-glow">
+                    <i class="fa-solid fa-bolt-lightning text-gold text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-orbitron font-black text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-yellow-600 tracking-wider">
+                        DPI GOLD <span class="text-xs text-gold/60 font-mono tracking-normal block md:inline">SYSTEM v4.0.9</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Header Status Metrics -->
+            <div class="flex items-center gap-6 font-mono text-xs">
+                <div class="hidden sm:flex flex-col items-end">
+                    <span class="text-gray-400">FPS RATE</span>
+                    <span id="fps-counter" class="text-gold font-bold">60.0 FPS</span>
+                </div>
+                <div class="hidden sm:flex flex-col items-end">
+                    <span class="text-gray-400">CORE TEMP</span>
+                    <span class="text-amber-400 font-bold">34.2 °C</span>
+                </div>
+                <div class="flex items-center gap-2 border border-gold/30 bg-gold/5 px-3 py-1.5 rounded clip-corner">
+                    <span id="status-indicator-dot" class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
+                    <span id="status-indicator-text" class="font-orbitron font-bold text-gray-300 text-xs tracking-wider">STANDBY</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN DASHBOARD CONTENT -->
+    <main class="relative z-10 max-w-7xl mx-auto w-full p-4 md:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- LEFT PANEL: Sliders & Parameter Tuning (4 Cols) -->
+        <section class="lg:col-span-4 space-y-5">
+            <div class="bg-cyber-card border border-gold/30 rounded-lg p-5 clip-corner backdrop-blur-md relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-16 h-16 bg-gold/5 rounded-bl-full pointer-events-none"></div>
+                <h2 class="font-orbitron text-lg font-bold text-gold flex items-center gap-2 mb-4 border-b border-gold/20 pb-2">
+                    <i class="fa-solid fa-sliders text-xs"></i> THÔNG SỐ TỐI ƯU HÓA
+                </h2>
+
+                <div class="space-y-4">
+                    <!-- Base DPI Slider -->
+                    <div class="space-y-1">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-300 font-semibold"><i class="fa-solid fa-crosshairs text-gold/70 mr-1"></i> DPI Cơ Sở (Base)</span>
+                            <span id="val-dpi" class="font-mono text-gold font-bold">800 DPI</span>
+                        </div>
+                        <input type="range" id="slider-dpi" min="400" max="1600" step="50" value="800" class="w-full">
+                        <div class="flex justify-between text-[10px] text-gray-500 font-mono">
+                            <span>400</span>
+                            <span>800</span>
+                            <span>1200</span>
+                            <span>1600</span>
+                        </div>
+                    </div>
+
+                    <!-- Multiplier Selection -->
+                    <div class="space-y-1">
+                        <label class="text-sm text-gray-300 font-semibold block"><i class="fa-solid fa-gauge-high text-gold/70 mr-1"></i> Gold Booster Multiplier</label>
+                        <div class="grid grid-cols-4 gap-2 pt-1" id="multiplier-group">
+                            <button data-mult="2" class="mult-btn py-1.5 text-xs font-orbitron font-bold border border-gold/30 bg-black/40 text-gray-300 rounded hover:border-gold transition-all">x2</button>
+                            <button data-mult="5" class="mult-btn py-1.5 text-xs font-orbitron font-bold border border-gold/30 bg-black/40 text-gray-300 rounded hover:border-gold transition-all">x5</button>
+                            <button data-mult="10" class="mult-btn active-mult py-1.5 text-xs font-orbitron font-bold border border-gold bg-gold/20 text-gold rounded gold-glow transition-all">x10 MAX</button>
+                            <button data-mult="15" class="mult-btn py-1.5 text-xs font-orbitron font-bold border border-gold/30 bg-black/40 text-gray-300 rounded hover:border-gold transition-all">x15 ULTRA</button>
+                        </div>
+                    </div>
+
+                    <!-- Touch Response Speed -->
+                    <div class="space-y-1">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-300 font-semibold"><i class="fa-solid fa-hand-pointer text-gold/70 mr-1"></i> Tốc Độ Cảm Ứng</span>
+                            <span id="val-touch" class="font-mono text-cyan-400 font-bold">1 ms (Ultra Fast)</span>
+                        </div>
+                        <input type="range" id="slider-touch" min="1" max="20" step="1" value="1" class="w-full">
+                    </div>
+
+                    <!-- Scope Sensitivities -->
+                    <div class="pt-2 border-t border-gold/10 space-y-3">
+                        <span class="text-xs font-orbitron text-gold/80 uppercase tracking-wider block">Độ nhạy ngắm (Sens Scope)</span>
+                        
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-gray-400">Red Dot / Holo</span>
+                                <span id="val-reddot" class="font-mono text-gold">185%</span>
+                            </div>
+                            <input type="range" id="slider-reddot" min="100" max="300" value="185" class="w-full">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-gray-400">4x / 8x Scope</span>
+                                <span id="val-scope" class="font-mono text-gold">220%</span>
+                            </div>
+                            <input type="range" id="slider-scope" min="100" max="300" value="220" class="w-full">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-gray-400">AWM / Sniper Lock</span>
+                                <span id="val-awm" class="font-mono text-gold">250%</span>
+                            </div>
+                            <input type="range" id="slider-awm" min="100" max="300" value="250" class="w-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Toggles -->
+            <div class="bg-cyber-card border border-gold/30 rounded-lg p-4 clip-corner backdrop-blur-md grid grid-cols-2 gap-3">
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" id="chk-aimlock" checked class="accent-amber-400 w-4 h-4 rounded">
+                    <span class="text-xs text-gray-300 font-semibold">Aimlock Simulated</span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" id="chk-norecoil" checked class="accent-amber-400 w-4 h-4 rounded">
+                    <span class="text-xs text-gray-300 font-semibold">Anti-Recoil Buffer</span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" id="chk-touchboost" checked class="accent-amber-400 w-4 h-4 rounded">
+                    <span class="text-xs text-gray-300 font-semibold">Touch Boost 120Hz</span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" id="chk-sound" checked class="accent-amber-400 w-4 h-4 rounded">
+                    <span class="text-xs text-gray-300 font-semibold">SFX Audio API</span>
+                </label>
+            </div>
+        </section>
+
+        <!-- CENTER PANEL: Glowing Core & Primary Action Button (5 Cols) -->
+        <section class="lg:col-span-5 flex flex-col items-center justify-center space-y-6 my-4 lg:my-0">
+            
+            <!-- CORE VISUALIZER CONTAINER -->
+            <div class="relative w-72 h-72 sm:w-80 sm:h-80 flex items-center justify-center my-2">
+                <!-- Outer Tech Ring 1 (Clockwise) -->
+                <div class="absolute inset-0 border-2 border-dashed border-gold/40 rounded-full ring-rotate-cw pointer-events-none"></div>
+                <!-- Outer Tech Ring 2 (Counter-Clockwise) -->
+                <div class="absolute inset-3 border border-gold/20 rounded-full border-t-2 border-t-gold ring-rotate-ccw pointer-events-none"></div>
+                <!-- Outer Tech Ring 3 (Clockwise fast) -->
+                <div class="absolute inset-8 border border-amber-500/30 rounded-full border-b-2 border-b-amber-400 ring-rotate-cw pointer-events-none"></div>
+
+                <!-- Particle/Energy canvas behind core -->
+                <canvas id="core-canvas" class="absolute inset-0 w-full h-full rounded-full z-0"></canvas>
+
+              <!-- Core Inner Glow Orb - Siêu Cấp Rainbow Holographic Edition -->
+<div id="dpi-core" class="relative z-10 w-40 h-40 sm:w-48 sm:h-48 rounded-full rainbow-gradient-bg flex flex-col items-center justify-center text-center p-4 core-pulse border-4 border-cyan-400/80 shadow-[0_0_35px_rgba(0,240,255,0.6)] backdrop-blur-xl relative overflow-hidden group">
+    
+    <!-- Vệt sáng Laser quét ngang qua hình tròn tạo hiệu ứng kính cao cấp -->
+    <div class="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/50 to-transparent skew-x-[-25deg] pointer-events-none" style="animation: laserShimmer 2s infinite linear;"></div>
+
+    <!-- Biểu tượng nguyên tử xoay mượt mà với màu sắc phản quang -->
+    <i class="fa-solid fa-atom text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] mb-1 animate-spin" style="animation-duration: 8s;"></i>
+    
+    <!-- Số DPI hiệu năng cao đổi màu theo nền -->
+    <span class="font-orbitron font-black text-2xl text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-200 to-yellow-200 tracking-wider leading-none drop-shadow-[0_0_12px_rgba(0,240,255,0.9)]" id="core-dpi-display">8000</span>
+    
+    <!-- Tiêu đề phụ sắc nét -->
+    <span class="font-orbitron text-[10px] text-white/90 font-extrabold uppercase tracking-widest mt-1 drop-shadow-[0_0_5px_rgba(0,0,0,0.8)]">EFFECTIVE DPI</span>
+</div>
+
+                <!-- Floating Decorative HUD Tags với Viền Neon Đổi Màu -->
+<div class="absolute top-2 left-2 text-[10px] font-mono font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-cyan-400 to-pink-500 border border-cyan-500/50 px-2 py-0.5 rounded bg-black/80 shadow-[0_0_10px_rgba(0,240,255,0.4)] backdrop-blur-md animate-pulse">
+    CORE: <span class="text-white">OPTIMAL</span>
+</div>
+<div class="absolute bottom-2 right-2 text-[10px] font-mono font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-400 to-yellow-300 border border-pink-500/50 px-2 py-0.5 rounded bg-black/80 shadow-[0_0_10px_rgba(255,0,128,0.4)] backdrop-blur-md animate-pulse">
+    BOOST: <span class="text-white">ACTIVE</span>
+</div>
+</div>
+
+<!-- PROGRESS BAR SECTION - RAINBOW HOLO EDITION -->
+<div class="w-full space-y-2 px-2">
+    <div class="flex justify-between items-center font-orbitron text-xs">
+        <span class="text-gray-300 flex items-center gap-2 font-bold tracking-wider">
+            <i class="fa-solid fa-spinner animate-spin text-cyan-400 hidden" id="spinner-icon"></i>
+            <span id="progress-status-text" class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-cyan-300 to-pink-400">TRẠNG THÁI: SẴN SÀNG KÍCH HOẠT</span>
+        </span>
+        <span id="progress-percent" class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-cyan-400 to-pink-500 font-extrabold font-mono text-lg drop-shadow-[0_0_8px_rgba(0,240,255,0.8)]">0%</span>
+    </div>
+    
+    <!-- Progress track viền phát sáng & kính mờ -->
+    <div class="w-full bg-black/90 border border-cyan-500/50 h-5 rounded-md overflow-hidden p-0.5 relative shadow-[0_0_15px_rgba(0,240,255,0.2)] backdrop-blur-md">
+        <!-- Progress fill đổi màu liên tục + tia Laser lướt qua -->
+        <div id="progress-fill" class="h-full rainbow-gradient-bg w-0 transition-all duration-100 ease-out rounded-sm relative overflow-hidden">
+            <!-- Vệt sáng Laser Scan hiệu ứng cực ngầu -->
+            <div class="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/80 to-transparent skew-x-[-25deg]" style="animation: laserShimmer 1.5s infinite linear;"></div>
+        </div>
+    </div>
+</div>
+
+          <button id="btn-activate" class="w-full py-4 px-6 bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 text-white font-orbitron font-black text-lg sm:text-xl tracking-wider rounded border-2 border-red-500 shadow-[0_0_25px_rgba(255,0,0,0.7)] hover:shadow-[0_0_35px_rgba(255,100,0,0.9)] hover:brightness-125 active:scale-95 transition-all duration-150 flex items-center justify-center gap-3 relative overflow-hidden group">
+    <div class="absolute inset-0 bg-black/20 backdrop-blur-[1px]"></div>
+    <i class="fa-solid fa-power-off text-2xl text-yellow-300 drop-shadow-[0_0_10px_rgba(255,200,0,0.9)] group-hover:rotate-90 transition-all duration-300 relative z-10"></i>
+    <span id="btn-text" class="text-white drop-shadow-[0_0_12px_rgba(255,50,0,0.9)] relative z-10">KÍCH HOẠT DPI GOLD</span>
+</button>
+
+            <!-- Status Banner Active Badge (Hidden by default) -->
+            <div id="active-badge" class="hidden w-full py-3 bg-gradient-to-r from-emerald-900/60 via-emerald-600/40 to-emerald-900/60 border border-emerald-400/50 rounded text-center active-pulse">
+                <p class="font-orbitron font-bold text-emerald-300 tracking-widest text-sm flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-circle-check text-emerald-400"></i> ĐÃ KÍCH HOẠT - GOLD STATUS ACTIVE
+                </p>
+                <p class="text-[11px] text-emerald-200/80 font-mono mt-0.5">Tốc độ phản hồi: <b class="text-white">0.01ms</b> | Aim Assist: <b class="text-white">MAXIMUM</b></p>
+            </div>
+        </section>
+
+        <!-- RIGHT PANEL: Live Console Logs & Realtime Diagnostics (3 Cols) -->
+        <section class="lg:col-span-3 space-y-5">
+            <!-- Console Log Window -->
+            <div class="bg-cyber-card border border-gold/30 rounded-lg p-4 clip-corner backdrop-blur-md flex flex-col h-[320px]">
+                <div class="flex justify-between items-center border-b border-gold/20 pb-2 mb-3">
+                    <h3 class="font-orbitron text-sm font-bold text-gold flex items-center gap-2">
+                        <i class="fa-solid fa-terminal text-xs"></i> LOG NHẬT KÝ SYSTEM
+                    </h3>
+                    <span class="w-2 h-2 rounded-full bg-gold animate-ping"></span>
+                </div>
+                <!-- Log Console Box -->
+                <div id="console-logs" class="flex-1 overflow-y-auto font-mono text-[11px] space-y-1.5 pr-1 text-gray-300">
+                    <p class="text-gray-500">[SYSTEM]: Khởi tạo Cyberpunk DPI Driver...</p>
+                    <p class="text-gray-500">[SYSTEM]: Sẵn sàng nạp tiến trình DPI Gold.</p>
+                </div>
+            </div>
+
+            <!-- Diagnostics Card -->
+            <div class="bg-cyber-card border border-gold/30 rounded-lg p-4 clip-corner backdrop-blur-md space-y-3">
+                <h3 class="font-orbitron text-sm font-bold text-gold border-b border-gold/20 pb-1.5 flex items-center gap-2">
+                    <i class="fa-solid fa-microchip"></i> CHỈ SỐ GIẢ LẬP
+                </h3>
+                
+                <div class="space-y-2 font-mono text-xs">
+                    <div>
+                        <div class="flex justify-between text-gray-400">
+                            <span>Touch Precision:</span>
+                            <span class="text-gold" id="diag-precision">99.9%</span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-1 rounded mt-1 overflow-hidden">
+                            <div class="bg-gold h-full w-[99.9%]"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between text-gray-400">
+                            <span>Input Latency:</span>
+                            <span class="text-cyan-400" id="diag-latency">0.12 ms</span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-1 rounded mt-1 overflow-hidden">
+                            <div class="bg-cyan-400 h-full w-[95%]"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between text-gray-400">
+                            <span>Aim Stability Index:</span>
+                            <span class="text-emerald-400" id="diag-stability">98.4 / 100</span>
+                        </div>
+                        <div class="w-full bg-gray-800 h-1 rounded mt-1 overflow-hidden">
+                            <div class="bg-emerald-400 h-full w-[98%]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="relative z-10 border-t border-gold/20 bg-black/80 py-3 px-4 text-center font-mono text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <span>DPI GOLD ACTIVATOR &copy; 2026 CYBERPUNK LABS. ALL RIGHTS RESERVED.</span>
+            <span class="text-gold/60">CẢNH BÁO: ĐÂY LA ỨNG DỤNG GIẢ LẬP MÔ PHỎNG HIỆU ỨNG TRUYỀN THÔNG</span>
+        </div>
+    </footer>
+
+    <!-- AUDIO & LOGIC JAVASCRIPT -->
+    <script>
+        /* ======================================================
+ * 1. WEB AUDIO API SYNTHESIZER (No external audio files)
+ * ====================================================== */
+class CyberAudio {
+    constructor() {
+        this.ctx = null;
+    }
+
+    init() {
+        if (!this.ctx) {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            this.ctx = new AudioContext();
+        }
+        if (this.ctx.state === 'suspended') {
+            this.ctx.resume();
+        }
+    }
+
+    // Click Sound (Short UI Beep)
+    playClick() {
+        const chk = document.getElementById('chk-sound');
+        if (chk && !chk.checked) return;
+        this.init();
+        
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(800, this.ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(400, this.ctx.currentTime + 0.05);
+        
+        gain.gain.setValueAtTime(0.15, this.ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.05);
+        
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        
+        osc.start();
+        osc.stop(this.ctx.currentTime + 0.05);
+    }
+
+    // Slider Change Tone
+    playTone(freq = 600) {
+        const chk = document.getElementById('chk-sound');
+        if (chk && !chk.checked) return;
+        this.init();
+
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
+
+        gain.gain.setValueAtTime(0.05, this.ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.03);
+
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+
+        osc.start();
+        osc.stop(this.ctx.currentTime + 0.03);
+    }
+
+    // Energy Charging Whine Sound (Pitch ramps up)
+    startChargeSound(durationMs) {
+        const chk = document.getElementById('chk-sound');
+        if (chk && !chk.checked) return null;
+        this.init();
+
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+
+        osc.type = 'sawtooth';
+        const startTime = this.ctx.currentTime;
+        const endTime = startTime + (durationMs / 1000);
+
+        osc.frequency.setValueAtTime(150, startTime);
+        osc.frequency.exponentialRampToValueAtTime(1200, endTime);
+
+        gain.gain.setValueAtTime(0.02, startTime);
+        gain.gain.linearRampToValueAtTime(0.12, endTime - 0.1);
+        gain.gain.exponentialRampToValueAtTime(0.001, endTime);
+
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+
+        osc.start(startTime);
+        osc.stop(endTime);
+
+        return osc;
+    }
+
+    // Success Explosion Chime
+    playSuccess() {
+        const chk = document.getElementById('chk-sound');
+        if (chk && !chk.checked) return;
+        this.init();
+
+        const now = this.ctx.currentTime;
+        const freqs = [523.25, 659.25, 783.99, 1046.50];
+        freqs.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, now + idx * 0.04);
+
+            gain.gain.setValueAtTime(0.15, now + idx * 0.04);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.04 + 0.5);
+
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+
+            osc.start(now + idx * 0.04);
+            osc.stop(now + idx * 0.04 + 0.5);
+        });
+    }
+}
+
+const audio = new CyberAudio();
+
+/* ======================================================
+ * 2. BACKGROUND & CORE CANVAS PARTICLE ANIMATION SYSTEM
+ * ====================================================== */
+const bgCanvas = document.getElementById('bg-canvas');
+const bgCtx = bgCanvas.getContext('2d');
+let bgParticles = [];
+
+function resizeBgCanvas() {
+    if (!bgCanvas) return;
+    bgCanvas.width = window.innerWidth;
+    bgCanvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resizeBgCanvas);
+resizeBgCanvas();
+
+class BgParticle {
+    constructor() {
+        this.reset();
+    }
+    reset() {
+        this.x = Math.random() * bgCanvas.width;
+        this.y = Math.random() * bgCanvas.height;
+        this.size = Math.random() * 2 + 0.5;
+        this.speedY = -(Math.random() * 0.8 + 0.2);
+        this.speedX = (Math.random() - 0.5) * 0.4;
+        this.opacity = Math.random() * 0.6 + 0.2;
+        this.color = ['#ffd700', '#00f0ff', '#ff007f'][Math.floor(Math.random() * 3)];
+    }
+    update() {
+        this.y += this.speedY;
+        this.x += this.speedX;
+        if (this.y < 0) this.y = bgCanvas.height;
+        if (this.x < 0 || this.x > bgCanvas.width) this.x = Math.random() * bgCanvas.width;
+    }
+    draw() {
+        bgCtx.save();
+        bgCtx.globalAlpha = this.opacity;
+        bgCtx.fillStyle = this.color;
+        bgCtx.beginPath();
+        bgCtx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        bgCtx.fill();
+        bgCtx.restore();
+    }
+}
+
+for (let i = 0; i < 70; i++) {
+    bgParticles.push(new BgParticle());
+}
+
+// Gold & Rainbow Explosion Particle System
+let burstParticles = [];
+class BurstParticle {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        const angle = Math.random() * Math.PI * 2;
+        const speed = Math.random() * 8 + 2;
+        this.vx = Math.cos(angle) * speed;
+        this.vy = Math.sin(angle) * speed;
+        this.size = Math.random() * 4 + 2;
+        this.alpha = 1;
+        this.decay = Math.random() * 0.02 + 0.015;
+        this.color = ['#ffd700', '#00f0ff', '#ff007f', '#00ff88', '#fff'][Math.floor(Math.random() * 5)];
+    }
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vx *= 0.95;
+        this.vy *= 0.95;
+        this.alpha -= this.decay;
+    }
+    draw(ctx) {
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, this.alpha);
+        ctx.fillStyle = this.color;
+        ctx.shadowColor = this.color;
+        ctx.shadowBlur = 10;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+    }
+}
+
+function triggerGoldBurst() {
+    if (!bgCanvas) return;
+    const rect = bgCanvas.getBoundingClientRect();
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    for (let i = 0; i < 120; i++) {
+        burstParticles.push(new BurstParticle(centerX, centerY));
+    }
+}
+
+// Core Inner Canvas FX
+const coreCanvas = document.getElementById('core-canvas');
+const coreCtx = coreCanvas ? coreCanvas.getContext('2d') : null;
+let coreAngle = 0;
+
+function renderCore() {
+    if (!coreCanvas || !coreCtx) return;
+    coreCanvas.width = coreCanvas.offsetWidth;
+    coreCanvas.height = coreCanvas.offsetHeight;
+    const cx = coreCanvas.width / 2;
+    const cy = coreCanvas.height / 2;
+
+    coreCtx.clearRect(0, 0, coreCanvas.width, coreCanvas.height);
+
+    coreAngle += 0.03;
+    coreCtx.save();
+    coreCtx.translate(cx, cy);
+    for (let i = 0; i < 8; i++) {
+        const a = coreAngle + (i * Math.PI / 4);
+        const r = cx * 0.82;
+        const px = Math.cos(a) * r;
+        const py = Math.sin(a) * r;
+
+        coreCtx.fillStyle = '#00f0ff';
+        coreCtx.shadowColor = '#ffd700';
+        coreCtx.shadowBlur = 10;
+        coreCtx.beginPath();
+        coreCtx.arc(px, py, 3, 0, Math.PI * 2);
+        coreCtx.fill();
+    }
+    coreCtx.restore();
+}
+
+// Unified Animation Loop
+let lastTime = performance.now();
+let frameCount = 0;
+let fps = 60;
+
+function animateLoop(now) {
+    frameCount++;
+    if (now - lastTime >= 1000) {
+        fps = (frameCount * 1000) / (now - lastTime);
+        const fpsEl = document.getElementById('fps-counter');
+        if (fpsEl) fpsEl.innerText = fps.toFixed(1) + " FPS";
+        frameCount = 0;
+        lastTime = now;
+    }
+
+    if (bgCtx && bgCanvas) {
+        bgCtx.clearRect(0, 0, bgCanvas.width, bgCanvas.height);
+        bgParticles.forEach(p => {
+            p.update();
+            p.draw();
+        });
+
+        for (let i = burstParticles.length - 1; i >= 0; i--) {
+            const bp = burstParticles[i];
+            bp.update();
+            bp.draw(bgCtx);
+            if (bp.alpha <= 0) {
+                burstParticles.splice(i, 1);
+            }
+        }
+    }
+
+    renderCore();
+    requestAnimationFrame(animateLoop);
+}
+window.onload = () => {
+    requestAnimationFrame(animateLoop);
+};
+
+/* ======================================================
+ * 3. APP LOGIC, SLIDERS & SIMULATION PROCESS (FAST LOAD)
+ * ====================================================== */
+let selectedMultiplier = 10;
+let isActivating = false;
+let isActivated = false;
+
+// UI Elements mapping
+const sliderDpi = document.getElementById('slider-dpi');
+const valDpi = document.getElementById('val-dpi');
+const coreDpiDisplay = document.getElementById('core-dpi-display');
+
+const sliderTouch = document.getElementById('slider-touch');
+const valTouch = document.getElementById('val-touch');
+
+const sliderReddot = document.getElementById('slider-reddot');
+const valReddot = document.getElementById('val-reddot');
+
+const sliderScope = document.getElementById('slider-scope');
+const valScope = document.getElementById('val-scope');
+
+const sliderAwm = document.getElementById('slider-awm');
+const valAwm = document.getElementById('val-awm');
+
+const btnActivate = document.getElementById('btn-activate');
+const btnText = document.getElementById('btn-text');
+const progressFill = document.getElementById('progress-fill');
+const progressPercent = document.getElementById('progress-percent');
+const progressStatusText = document.getElementById('progress-status-text');
+const consoleLogs = document.getElementById('console-logs');
+const spinnerIcon = document.getElementById('spinner-icon');
+const activeBadge = document.getElementById('active-badge');
+
+function updateDpiDisplay() {
+    if (!sliderDpi) return;
+    const base = parseInt(sliderDpi.value);
+    if (valDpi) valDpi.innerText = base + " DPI";
+    const effective = base * selectedMultiplier;
+    if (coreDpiDisplay) coreDpiDisplay.innerText = effective.toLocaleString();
+}
+
+if (sliderDpi) {
+    sliderDpi.addEventListener('input', () => {
+        updateDpiDisplay();
+        audio.playTone(500 + parseInt(sliderDpi.value) / 2);
+    });
+}
+if (sliderTouch) {
+    sliderTouch.addEventListener('input', () => {
+        valTouch.innerText = sliderTouch.value + " ms";
+        audio.playTone(700 - sliderTouch.value * 20);
+    });
+}
+if (sliderReddot) sliderReddot.addEventListener('input', () => { valReddot.innerText = sliderReddot.value + "%"; audio.playTone(600); });
+if (sliderScope) sliderScope.addEventListener('input', () => { valScope.innerText = sliderScope.value + "%"; audio.playTone(650); });
+if (sliderAwm) sliderAwm.addEventListener('input', () => { valAwm.innerText = sliderAwm.value + "%"; audio.playTone(700); });
+
+// Multiplier Buttons
+document.querySelectorAll('.mult-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        audio.playClick();
+        document.querySelectorAll('.mult-btn').forEach(b => {
+            b.classList.remove('border-cyan-400', 'bg-cyan-500/20', 'text-cyan-300', 'shadow-[0_0_15px_rgba(0,240,255,0.4)]');
+            b.classList.add('border-cyan-500/30', 'bg-black/40', 'text-gray-300');
+        });
+
+        const target = e.currentTarget;
+        target.classList.remove('border-cyan-500/30', 'bg-black/40', 'text-gray-300');
+        target.classList.add('border-cyan-400', 'bg-cyan-500/20', 'text-cyan-300', 'shadow-[0_0_15px_rgba(0,240,255,0.4)]');
+
+        selectedMultiplier = parseInt(target.getAttribute('data-mult'));
+        updateDpiDisplay();
+    });
+});
+
+function addConsoleLog(msg, type = 'info') {
+    if (!consoleLogs) return;
+    const p = document.createElement('p');
+    const time = new Date().toLocaleTimeString('vi-VN', { hour12: false });
+    
+    if (type === 'success') {
+        p.className = 'text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-400 font-bold';
+        p.innerHTML = `[${time}] <i class="fa-solid fa-check text-xs text-green-400"></i> ${msg}`;
+    } else if (type === 'warning') {
+        p.className = 'text-cyan-300';
+        p.innerHTML = `[${time}] <i class="fa-solid fa-gear text-xs animate-spin text-cyan-400"></i> ${msg}`;
+    } else {
+        p.className = 'text-gray-300';
+        p.innerHTML = `[${time}] <i class="fa-solid fa-angle-right text-xs text-pink-500"></i> ${msg}`;
+    }
+
+    consoleLogs.appendChild(p);
+    consoleLogs.scrollTop = consoleLogs.scrollHeight;
+}
+
+// ACTIVATION PROCESS (FAST LOAD ~1.5 SECONDS)
+if (btnActivate) {
+    btnActivate.addEventListener('click', () => {
+        audio.playClick();
+
+        if (isActivating) return;
+
+        if (isActivated) {
+            isActivated = false;
+            btnText.innerText = "KÍCH HOẠT DPI GOLD";
+            if (progressFill) progressFill.style.width = "0%";
+            if (progressPercent) progressPercent.innerText = "0%";
+            if (progressStatusText) progressStatusText.innerText = "TRẠNG THÁI: SẴN SÀNG KÍCH HOẠT";
+            if (activeBadge) activeBadge.classList.add('hidden');
+            addConsoleLog("Đã hủy trạng thái kích hoạt DPI.", "warning");
+            return;
+        }
+
+        isActivating = true;
+        btnActivate.classList.add('opacity-80', 'cursor-not-allowed');
+        if (spinnerIcon) spinnerIcon.classList.remove('hidden');
+        if (progressStatusText) progressStatusText.innerText = "ĐANG TỐI ƯU HỆ THỐNG...";
+
+        // Rút ngắn thời gian sạc xuống 1500ms (1.5 giây) chạy cực nhanh mượt
+        const totalDuration = 1500; 
+        audio.startChargeSound(totalDuration);
+        addConsoleLog("Bắt đầu nạp năng lượng DPI Rainbow...", "warning");
+
+        const logMilestones = [
+            { percent: 20, msg: "Tối ưu hóa tần số cảm ứng..." },
+            { percent: 50, msg: "Đồng bộ hóa Rainbow Booster Core..." },
+            { percent: 80, msg: "Khóa độ trễ tâm ngắm 0.01ms..." },
+            { percent: 100, msg: "Kích hoạt hoàn tất thành công!", type: 'success' }
+        ];
+
+        let startTimestamp = null;
+
+        function stepActivation(timestamp) {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const elapsed = timestamp - startTimestamp;
+            const progress = Math.min(Math.floor((elapsed / totalDuration) * 100), 100);
+
+            if (progressFill) progressFill.style.width = progress + "%";
+            if (progressPercent) progressPercent.innerText = progress + "%";
+
+            for (let i = logMilestones.length - 1; i >= 0; i--) {
+                if (progress >= logMilestones[i].percent && !logMilestones[i].logged) {
+                    logMilestones[i].logged = true;
+                    addConsoleLog(logMilestones[i].msg, logMilestones[i].type || 'info');
+                }
+            }
+
+            if (elapsed < totalDuration) {
+                requestAnimationFrame(stepActivation);
+            } else {
+                isActivating = false;
+                isActivated = true;
+
+                btnActivate.classList.remove('opacity-80', 'cursor-not-allowed');
+                if (spinnerIcon) spinnerIcon.classList.add('hidden');
+                if (btnText) btnText.innerText = "HỦY KÍCH HOẠT / REBOOT";
+                if (progressStatusText) progressStatusText.innerText = "TRẠNG THÁI: TỐI ƯU HOÀN HẢO";
+
+                audio.playSuccess();
+                triggerGoldBurst();
+
+                if (activeBadge) activeBadge.classList.remove('hidden');
+            }
+        }
+
+        requestAnimationFrame(stepActivation);
+    });
+}
+    </script>
+</body>
+</html>
